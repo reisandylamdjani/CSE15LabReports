@@ -25,6 +25,7 @@ When the Terminal opened up, there should be a '$' after your directory
 
 3. Writing the command to connect to the ssh server
 ![ssh](ssh.png)
+
 Replace the zz with your own course-specific username. It should be 3 letters, for example cs15lwi22abc. Once, you click enter, it will prompt you to enter a password. This password is the same password that you use to log in to Canvas or mytritonlink.
 * Basic Command Lines
 * Moving Files with scp
