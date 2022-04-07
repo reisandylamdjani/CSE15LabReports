@@ -8,6 +8,7 @@ First step is to download [VSCode](https://code.visualstudio.com/)
 When VSCode is downloaded successfully, a screen like the image below should popup
 
 ![VSCode Homepage](VSCodeHomepage.png)
+hello
 * Remotely Connecting
 * Basic Command Lines
 * Moving Files with scp
