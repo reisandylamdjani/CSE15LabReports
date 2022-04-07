@@ -13,17 +13,17 @@ When VSCode is downloaded successfully, a screen like the image below should pop
 You are allowed to use any other IDE's, however, VSCode is probably the easiest and best IDE to use.
 * Remotely Connecting
 
-1. Before connecting to the server, you will need a username.
+Before connecting to the server, you will need a username.
 
 You can find your own personal username for CSE15L from the link below:
 
 [Course-Specific Username](https://sdacs.ucsd.edu/~icc/index.php)
 
-2. Open VSCode, and open a new Terminal(Ctrl or Command + `, or use the Terminal → New Terminal menu option)
+Open VSCode, and open a new Terminal(Ctrl or Command + `, or use the Terminal → New Terminal menu option)
 
 When the Terminal opened up, there should be a '$' after your directory
 
-3. Writing the command to connect to the ssh server
+Writing the command to connect to the ssh server
 ![ssh](ssh.png)
 
 Replace the zz with your own course-specific username. It should be 3 letters, for example cs15lwi22abc. Once, you click enter, it will prompt you to enter a password. This password is the same password that you use to log in to Canvas or mytritonlink.
