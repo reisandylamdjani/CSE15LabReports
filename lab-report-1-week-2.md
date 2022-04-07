@@ -1,4 +1,4 @@
-**Logging Into a course-specific account on ieng6 Server**
+**Logging Into a Course-Specific Account on ieng6 Server**
 
 Below are topics that will be covered in properly setting up on an ieng6 server
 * Installing VSCode
