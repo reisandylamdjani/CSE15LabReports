@@ -58,5 +58,20 @@ As you can see, I used ls to list the directories in the home directories, but t
 ![moreCommand](moreCommand.png)
 
 * Moving Files with scp
+
+For this part of the tutorials, we need to understand what scp means. Scp is a copy command line that allows you to copy or move a file to another server.
+
+To understand how to move file with scp, let's begin by creating a file on *your* computer called WhereAmI.java and put the following contents into it:
+
+![WhereAmI](WhereAmI.png)
+
+Then, in the terminal from the directory where you made the file, run the command below (make sure to use your unique username and replace wi22 with sp22)
+
+![scp](scp.png)
+
+Then, log into ieng6 with ssh, and use the ls command. You should see the file in the home directory, if successfully copied into the ieng6 server. If you are successfull, then you should be able to run the file on the ieng6 computer using javac and java.
+
+![testWhere](testWhere.png)
+
 * Setting an ssh key
 * Optimizing Remote Running
