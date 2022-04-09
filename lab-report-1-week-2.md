@@ -1,6 +1,6 @@
 **Logging Into a Course-Specific Account on ieng6 Server**
 
-Below are topics that will be covered in properly setting up on an ieng6 server
+The bullet points below indicate topics that will be covered in properly setting up on an ieng6 server
 * Installing VSCode
 
 1. Click the link to download [VSCode](https://code.visualstudio.com/)
@@ -41,6 +41,17 @@ Some basic command lines:
 3. pwd = prints working directory
 4. mkdir = make directory
 5. cp = copy
+
+There are other command lines that are more advanced
+1. cd ~ = open the home directory
+2. ls -a =
+3. ls -lat =
+
+Below is an example of running the basic command line on the server
+
+![basicCommand](BasicCommand.png)
+As you can see, I used ls to list the directories in the home directories, but there's only perl5 so I created a direcotry called "Lab" by using the mkdir command line. Now, when I used ls again, it showed both Lab and perl5.
+
 * Moving Files with scp
 * Setting an ssh key
 * Optimizing Remote Running
