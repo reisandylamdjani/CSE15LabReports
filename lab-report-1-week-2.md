@@ -27,7 +27,20 @@ Writing the command to connect to the ssh server
 ![ssh](ssh.png)
 
 Replace the zz with your own course-specific username. It should be 3 letters, for example cs15lwi22abc. Once, you click enter, it will prompt you to enter a password. This password is the same password that you use to log in to Canvas or mytritonlink.
+
+When you logged in successfully, it will show you a cluster status such as the image below.
+![Terminal](TerminalLogIn.png)
+
+Once you have this on your terminal, you have successfully connect to the ieng6 server. The next steps will be running some basic command lines inside the server by using the terminal.
 * Basic Command Lines
+
+Some basic command lines:
+
+1. cd = change directory
+2. ls = list directory
+3. pwd = prints working directory
+4. mkdir = make directory
+5. cp = copy
 * Moving Files with scp
 * Setting an ssh key
 * Optimizing Remote Running
