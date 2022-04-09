@@ -50,6 +50,7 @@ There are other command lines that are more advanced
 Below is an example of running the basic command line on the server
 
 ![basicCommand](BasicCommand.png)
+
 As you can see, I used ls to list the directories in the home directories, but there's only perl5 so I created a direcotry called "Lab" by using the mkdir command line. Now, when I used ls again, it showed both Lab and perl5.
 
 * Moving Files with scp
