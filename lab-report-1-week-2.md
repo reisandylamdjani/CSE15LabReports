@@ -44,14 +44,18 @@ Some basic command lines:
 
 There are other command lines that are more advanced
 1. cd ~ = open the home directory
-2. ls -a =
-3. ls -lat =
+2. ls -a = list all deeper directories
+3. ls -lat = list the deeper directories, and regular directories as well as when it was it created
 
-Below is an example of running the basic command line on the server
+Below is an example of running the basic command line on the server including the more sophisticated ones.
 
 ![basicCommand](BasicCommand.png)
 
 As you can see, I used ls to list the directories in the home directories, but there's only perl5 so I created a direcotry called "Lab" by using the mkdir command line. Now, when I used ls again, it showed both Lab and perl5.
+
+![commandLine](commandLine.png)
+
+![moreCommand](moreCommand.png)
 
 * Moving Files with scp
 * Setting an ssh key
