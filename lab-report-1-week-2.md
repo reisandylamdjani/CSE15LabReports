@@ -76,6 +76,15 @@ Then, log into ieng6 with ssh, and use the ls command. You should see the file i
 * Setting an ssh key
 
 An ssh key will allow us to log in or run scp at a much faster pace, without having to input our password every time. Behind this solution is a program called ssh-keygends, which creates a pair of files called the *public key* and *private key*. The public key will be copied to a specific location on the server, and the private key on the client's computer. Then, the ssh command will use the pair of files from both location instead of the password. 
+
+Follow the steps in the image below to successfully create the keys and copying the public key to the server
+
+![keygen1](keygen1.png)
+
+![keygen2](keygen2.png)
+
+When the keys are created and paired successfully, when logging into the ieng6 server, they will not prompt you to enter your password, rather it will connect automatically.
+
 * Optimizing Remote Running
 
 As a programmer, in the future, we will do lots of copying files from our own laptop or computer to a remote server and running it. There are some hints that could fasten this process:
