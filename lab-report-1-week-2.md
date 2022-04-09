@@ -74,4 +74,6 @@ Then, log into ieng6 with ssh, and use the ls command. You should see the file i
 ![testWhere](testWhere.png)
 
 * Setting an ssh key
+
+An ssh key will allow us to log in or run scp at a much faster pace, without having to input our password every time. Behind this solution is a program called ssh-keygends, which creates a pair of files called the *public key* and *private key*. The public key will be copied to a specific location on the server, and the private key on the client's computer. Then, the ssh command will use the pair of files from both location instead of the password. 
 * Optimizing Remote Running
