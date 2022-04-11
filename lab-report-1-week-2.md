@@ -41,8 +41,12 @@ Some basic command lines:
 3. pwd = prints working directory
 4. mkdir = make directory
 5. cp = copy
+6. rm = remove directory
+7. cat = reads whatever is inside the directory or file
 
-There are other command lines that are more advanced
+Again, these are just some basic command lines that are used everyday by programmers.
+
+There are other command lines that are more advanced and I will list some below
 1. cd ~ = open the home directory
 2. ls -a = list all deeper directories
 3. ls -lat = list the deeper directories, and regular directories as well as when it was it created
