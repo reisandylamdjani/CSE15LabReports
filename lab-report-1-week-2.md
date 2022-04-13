@@ -1,6 +1,6 @@
 # **Logging Into a Course-Specific Account on ieng6 Server**
 
-The bullet points below indicate topics that will be covered in properly setting up an account on an ieng6 server
+`The bullet points below indicate topics that will be covered in properly setting up an account on an ieng6 server`
 ## Installing VSCode
 
 1. Click the link to download [VSCode](https://code.visualstudio.com/)
