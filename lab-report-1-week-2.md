@@ -1,7 +1,7 @@
-**Logging Into a Course-Specific Account on ieng6 Server**
+# **Logging Into a Course-Specific Account on ieng6 Server**
 
 The bullet points below indicate topics that will be covered in properly setting up an account on an ieng6 server
-* Installing VSCode
+## Installing VSCode
 
 1. Click the link to download [VSCode](https://code.visualstudio.com/)
 
@@ -9,9 +9,8 @@ When VSCode is downloaded successfully, a screen like the image below should pop
 
 ![VSCode Homepage](VSCodeHomepage.png)
 
-
 You are allowed to use any other IDE's, however, VSCode is probably the easiest and best IDE to use.
-* Remotely Connecting
+## Remotely Connecting
 
 Before connecting to the server, you will need a username.
 
@@ -32,7 +31,7 @@ When you logged in successfully, it will show you a cluster status such as the i
 ![Terminal](TerminalLogIn.png)
 
 Once you have this on your terminal, you have successfully connect to the ieng6 server. The next steps will be running some basic command lines inside the server by using the terminal.
-* Basic Command Lines
+## Basic Command Lines
 
 Some basic command lines:
 
@@ -61,7 +60,7 @@ As you can see, I used ls to list the directories in the home directories, but t
 
 ![moreCommand](moreCommand.png)
 
-* Moving Files with scp
+## Moving Files with scp
 
 For this part of the tutorials, we need to understand what scp means. Scp is a copy command line that allows you to copy or move a file to another server.
 
@@ -77,7 +76,7 @@ Then, log into ieng6 with ssh, and use the ls command. You should see the file i
 
 ![testWhere](testWhere.png)
 
-* Setting an ssh key
+## Setting an ssh key
 
 An ssh key will allow us to log in or run scp at a much faster pace, without having to input our password every time. Behind this solution is a program called ssh-keygends, which creates a pair of files called the *public key* and *private key*. The public key will be copied to a specific location on the server, and the private key on the client's computer. Then, the ssh command will use the pair of files from both location instead of the password. 
 
@@ -89,7 +88,7 @@ Follow the steps in the image below to successfully create the keys and copying 
 
 When the keys are created and paired successfully, when logging into the ieng6 server, they will not prompt you to enter your password, rather it will connect automatically.
 
-* Optimizing Remote Running
+## Optimizing Remote Running
 
 As a programmer, in the future, we will do lots of copying files from our own laptop or computer to a remote server and running it. There are some hints that could fasten this process:
 
