@@ -25,7 +25,7 @@ When the Terminal opened up, there should be a '$' after your directory
 Writing the command to connect to the ssh server
 ![ssh](ssh.png)
 
-Replace the zz with your own course-specific username. It should be 3 letters, for example cs15lwi22abc. Once, you click enter, it will prompt you to enter a password. This password is the same password that you use to log in to Canvas or mytritonlink.
+Replace the zz with your own course-specific username. It should be 3 letters, for example `cs15lwi22abc`. Once, you click enter, it will prompt you to enter a password. This password is the same password that you use to log in to Canvas or mytritonlink.
 
 When you logged in successfully, it will show you a cluster status such as the image below.
 ![Terminal](TerminalLogIn.png)
@@ -35,20 +35,28 @@ Once you have this on your terminal, you have successfully connect to the ieng6 
 
 Some basic command lines:
 
-1. cd = change directory
-2. ls = list directory
-3. pwd = prints working directory
-4. mkdir = make directory
-5. cp = copy
-6. rm = remove directory
-7. cat = reads whatever is inside the directory or file
+`1. cd = change directory`
+
+`2. ls = list directory`
+
+`3. pwd = prints working directory`
+
+`4. mkdir = make directory`
+
+`5. cp = copy`
+
+`6. rm = remove directory`
+
+`7. cat = reads whatever is inside the directory or file`
 
 Again, these are just some basic command lines that are used everyday by programmers.
 
 There are other command lines that are more advanced and I will list some below
-1. cd ~ = open the home directory
-2. ls -a = list all deeper directories
-3. ls -lat = list the deeper directories, and regular directories as well as when it was it created
+`1. cd ~ = open the home directory`
+
+`2. ls -a = list all deeper directories`
+
+`3. ls -lat = list the deeper directories, and regular directories as well as when it was it created`
 
 Below is an example of running the basic command line on the server including the more sophisticated ones.
 
@@ -64,7 +72,7 @@ As you can see, I used ls to list the directories in the home directories, but t
 
 For this part of the tutorials, we need to understand what scp means. Scp is a copy command line that allows you to copy or move a file to another server.
 
-To understand how to move file with scp, let's begin by creating a file on *your* computer called WhereAmI.java and put the following contents into it:
+To understand how to move file with scp, let's begin by creating a file on *your* computer called `WhereAmI.java` and put the following contents into it:
 
 ![WhereAmI](WhereAmI.png)
 
@@ -95,6 +103,6 @@ As a programmer, in the future, we will do lots of copying files from our own la
 1. Write a command in quotes at the end of an ssh command to directly run it on the remote server
 2. Use semicolons to run multiple commands on the same line in most terminals
 3. Use the up-arrow on your keyboard to recalled the last command that was run
-$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+`$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
 ![semicolons](semicolons.png)
