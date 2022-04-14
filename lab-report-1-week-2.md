@@ -35,29 +35,29 @@ Once you have this on your terminal, you have successfully connect to the ieng6 
 
 Some basic command lines:
 
-`1. cd = change directory`
+1. `cd = change directory`
 
-`2. ls = list directory`
+2. `ls = list directory`
 
-`3. pwd = prints working directory`
+3. `pwd = prints working directory`
 
-`4. mkdir = make directory`
+4. `mkdir = make directory`
 
-`5. cp = copy`
+5. `cp = copy`
 
-`6. rm = remove directory`
+6. `rm = remove directory`
 
-`7. cat = reads whatever is inside the directory or file`
+7. `cat = reads whatever is inside the directory or file`
 
 Again, these are just some basic command lines that are used everyday by programmers.
 
 There are other command lines that are more advanced and I will list some below
 
-`1. cd ~ = open the home directory`
+1. `cd ~ = open the home directory`
 
-`2. ls -a = list all deeper directories`
+2. `ls -a = list all deeper directories`
 
-`3. ls -lat = list the deeper directories, and regular directories as well as when it was it created`
+3. `ls -lat = list the deeper directories, and regular directories as well as when it was it created`
 
 Below is an example of running the basic command line on the server including the more sophisticated ones.
 
