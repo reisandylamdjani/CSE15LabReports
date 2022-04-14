@@ -52,6 +52,7 @@ Some basic command lines:
 Again, these are just some basic command lines that are used everyday by programmers.
 
 There are other command lines that are more advanced and I will list some below
+
 `1. cd ~ = open the home directory`
 
 `2. ls -a = list all deeper directories`
@@ -103,6 +104,7 @@ As a programmer, in the future, we will do lots of copying files from our own la
 1. Write a command in quotes at the end of an ssh command to directly run it on the remote server
 2. Use semicolons to run multiple commands on the same line in most terminals
 3. Use the up-arrow on your keyboard to recalled the last command that was run
+
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
 ![semicolons](semicolons.png)
