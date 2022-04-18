@@ -23,7 +23,7 @@ When the Terminal opened up, there should be a '$' after your directory
 Writing the command to connect to the ssh server
 ![ssh](ssh.png)
 
-Replace the zz with your own course-specific username. It should be 3 letters, for example `cs15lwi22abc`. Once, you click enter, it will prompt you to enter a password. This password is the same password that you use to log in to Canvas or mytritonlink.
+Replace the zz with your own course-specific username. It should be 3 letters, for example `cs15lsp22abc`. You will replace the wi22, with sp22 because we are in the Spring quarter. Once, you click enter, it will prompt you to enter a password. This password is the same password that you use to log in to Canvas or mytritonlink.
 
 When you logged in successfully, it will show you a cluster status such as the image below.
 ![Terminal](TerminalLogIn.png)
