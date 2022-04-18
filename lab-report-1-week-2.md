@@ -23,6 +23,8 @@ When the Terminal opened up, there should be a '$' after your directory
 Writing the command to connect to the ssh server
 ![ssh](ssh.png)
 
+`ssh cs15lsp22zz@ieng6.ucsd.edu`
+
 Replace the zz with your own course-specific username. It should be 3 letters, for example `cs15lsp22abc`. You will replace the wi22, with sp22 because we are in the Spring quarter. Once, you click enter, it will prompt you to enter a password. This password is the same password that you use to log in to Canvas or mytritonlink.
 
 When you logged in successfully, it will show you a cluster status such as the image below.
@@ -74,6 +76,8 @@ For this part of the tutorials, we need to understand what scp means. Scp is a c
 To understand how to move file with scp, let's begin by creating a file on *your* computer called `WhereAmI.java` and put the following contents into it:
 
 ![WhereAmI](WhereAmI.png)
+
+`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
 Then, in the terminal from the directory where you made the file, run the command below (make sure to use your unique username and replace wi22 with sp22)
 
