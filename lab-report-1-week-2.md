@@ -77,11 +77,11 @@ To understand how to move file with scp, let's begin by creating a file on *your
 
 ![WhereAmI](WhereAmI.png)
 
-`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
-
 Then, in the terminal from the directory where you made the file, run the command below (make sure to use your unique username and replace wi22 with sp22)
 
 ![scp](scp.png)
+
+`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
 Then, log into ieng6 with ssh, and use the ls command. You should see the file in the home directory, if successfully copied into the ieng6 server. If you are successfull, then you should be able to run the file on the ieng6 computer using javac and java.
 
