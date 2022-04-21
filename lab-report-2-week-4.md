@@ -59,4 +59,14 @@ The correct output is shown below
 ![bugTwoOutput](bugTwoOutput.png)
 
 ## Third Code Change (Uses Brackets but No Parantheses)
-For this bug, 
+For this bug, I considered the test file where there are `[]` but `()`.
+
+In our `noParen.md` file, we only put:
+
+`# Title`
+
+`[link]`
+
+Again, our solution to this bug is the same as the first and second bug listed above. We had to check the condition when `openBracket`, `closeBracket`, `openParen`, or `closeParen` becomes -1. 
+
+Link to the failure-inducing input for [noParen]().
