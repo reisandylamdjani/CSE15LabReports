@@ -31,6 +31,31 @@ The images below will show the symptom of the failure-inducing input and the cod
 
 The problem of the code is that the owner forgot to check if `indexOf()` cannot locate the index of the specificied string. Based on the function, it will return the index within the string of the first occurrence and if no such value exists, then it will return -1. In our test case, since the new line did not have any `[] or ()` then it will always return -1 that becomes an infinite loop that takes up the memory in the heap and causing it to crash because of no more memories. 
 
-## Second Code Change
+The correct output is shown below:
+
+![corrOne](corrOne.png)
+
+## Second Code Change (No links)
+For this bug, we needed to consider the output of the file if we had no links. For us, this means that there is nothing written in the test file because if we put only `[]()`, the output would produce `[]`, an empty array which is the correct output.
+
+In our `noLinkTest.md`, we only wrote `#Title` and 2 new lines.
+
+![noCode](noCode.png)
+
+Our solution was the same as the solution to the first bug, we had to check the condition when `openBracket`, `closeBracket`, `openParen`, or `closeParen` becomes -1. 
+
+![bugOne](bugOne.png)
+
+Link to the failure-inducing input for [no codes](https://github.com/reisandylamdjani/markdown-parser/blob/main/noLinkTest.md).
+
+For no codes, the symptom is:
+
+![noCodeOutput](noCodeOutput.png)
+
+The problem with this bug is that it doens't know when to return that index after that specified string. The first bug was different because they had contents to start, but this bug does not which throws a StringIndexOutOfBoundsException because in a sense is "out-of-bounds" or out of range. 
+
+The correct output is shown below
+
+![bugTwoOutput](bugTwoOutput.png)
 
 ## Third Code Change
