@@ -21,7 +21,7 @@ To fix this, we had to check the conditions when `openBracket`, `closeBracket`, 
 
 ![bugOne](bugOne.png)
 
-This is the link to the test file for a [failure-inducing input](https://github.com/reisandylamdjani/markdown-parser/commit/a73dc1a6a4d4a726d537f47108eb94ed8856d288).
+This is the link to the test file for a [failure-inducing input](https://github.com/reisandylamdjani/markdown-parser/blob/main/test-file.md).
 
 The images below will show the symptom of the failure-inducing input and the code change diff from GitHub
 
@@ -46,7 +46,7 @@ Our solution was the same as the solution to the first bug, we had to check the 
 
 ![bugOne](bugOne.png)
 
-Link to the failure-inducing input for [no codes](https://github.com/reisandylamdjani/markdown-parser/commit/f98f5220ed80a81c06d8c31c5d55875322b75e6e).
+Link to the failure-inducing input for [no codes](https://github.com/reisandylamdjani/markdown-parser/blob/main/noLinkTest.md).
 
 For no codes, the symptom is:
 
@@ -58,7 +58,7 @@ The correct output is shown below
 
 ![bugTwoOutput](bugTwoOutput.png)
 
-## Third Code Change (Uses Brackets but No Parantheses)
+## Third Code Change (Uses Brackets but No Parentheses)
 For this bug, I considered the test file where there are `[]` but `()`.
 
 In our `noParen.md` file, we only put:
@@ -69,4 +69,16 @@ In our `noParen.md` file, we only put:
 
 Again, our solution to this bug is the same as the first and second bug listed above. We had to check the condition when `openBracket`, `closeBracket`, `openParen`, or `closeParen` becomes -1. 
 
-Link to the failure-inducing input for [noParen]().
+![bugOne](bugOne.png)
+
+Link to the failure-inducing input for [noParen](https://github.com/reisandylamdjani/markdown-parser/blob/main/noParen.md).
+
+For no parentheses, the symptom is:
+
+![noParen](noParen.png)
+
+![noParenCommit](noParenCommit.png)
+
+The relationship between the bug, the failure-inducing input, and the symptom is related to the second bug where it found the brackets, but cannot find the parentheses because you need both brackets and parentheses to return the content of the strings, even if there is nothing inside. It first found the brackets, both open and closed, then it needs to find the open parenthese, but there are none, hence, indexOf() will return -1 which is out an out of bounds for the string index. 
+
+
