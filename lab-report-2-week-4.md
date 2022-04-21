@@ -81,4 +81,8 @@ For no parentheses, the symptom is:
 
 The relationship between the bug, the failure-inducing input, and the symptom is related to the second bug where it found the brackets, but cannot find the parentheses because you need both brackets and parentheses to return the content of the strings, even if there is nothing inside. It first found the brackets, both open and closed, then it needs to find the open parenthese, but there are none, hence, indexOf() will return -1 which is out an out of bounds for the string index. 
 
+The correct output for this bug will be shown below:
+
+![noParenOutput](noParenOutput.png)
+
 
