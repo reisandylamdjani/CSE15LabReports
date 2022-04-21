@@ -58,4 +58,5 @@ The correct output is shown below
 
 ![bugTwoOutput](bugTwoOutput.png)
 
-## Third Code Change
+## Third Code Change (Uses Brackets but No Parantheses)
+For this bug, 
