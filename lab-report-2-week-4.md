@@ -21,7 +21,7 @@ To fix this, we had to check the conditions when `openBracket`, `closeBracket`, 
 
 ![bugOne](bugOne.png)
 
-This is the link to the test file for a [failure-inducing input](https://github.com/reisandylamdjani/markdown-parser/blob/main/test-file.md).
+This is the link to the test file for a [failure-inducing input](https://github.com/reisandylamdjani/markdown-parser/commit/a73dc1a6a4d4a726d537f47108eb94ed8856d288).
 
 The images below will show the symptom of the failure-inducing input and the code change diff from GitHub
 
@@ -46,7 +46,7 @@ Our solution was the same as the solution to the first bug, we had to check the 
 
 ![bugOne](bugOne.png)
 
-Link to the failure-inducing input for [no codes](https://github.com/reisandylamdjani/markdown-parser/blob/main/noLinkTest.md).
+Link to the failure-inducing input for [no codes](https://github.com/reisandylamdjani/markdown-parser/commit/f98f5220ed80a81c06d8c31c5d55875322b75e6e).
 
 For no codes, the symptom is:
 
