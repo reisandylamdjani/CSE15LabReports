@@ -4,7 +4,7 @@
 
 ## [Lab Reports #2](lab-report-2-week-4.md)
 
-## Lab Reports #3
+## [Lab Reports #3](lab-report-3-week-6.md)
 
 ## Lab Reports #4
 
