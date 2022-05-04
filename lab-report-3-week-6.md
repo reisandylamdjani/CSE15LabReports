@@ -19,5 +19,10 @@ Based on the image above, you can see that the `helloWorld.java` file wasn't lis
 # Setup Github Acces from ieng6
 
 # Copy Whole Directories with `scp -r`
+The first image that I will show is when I copied the whole markdown-parser directory to my `ieng6` account.
+
+![scpWhole](scpWhole.png)
+
+
 
 
