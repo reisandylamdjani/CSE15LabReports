@@ -17,6 +17,20 @@ From this, I just have to create a new file on my computer so that I can copy it
 Based on the image above, you can see that the `helloWorld.java` file wasn't listed in the home directory yet, but once I copied it into the account, it showed up.
 
 # Setup Github Acces from ieng6
+For this part of the Group Choice, I wanna show images of where the public key is stored on Github and my user account
+
+![sshGit](sshGit.png)
+
+![sshPubPri](sshPubPri.png)
+
+The public key is under the name `id_rsa.pub` and the private key is under the name `id_rsa`.
+
+The image below will show the result of successfully adding, committing, and pushing the changes in the file.
+
+![successPush](successPush.png)
+
+This is the link for the [successful commit](https://github.com/reisandylamdjani/markdown-parser/commit/94a7ac6ba20e167c41cd0f1f0b777c6aea73f5cc)
+
 
 # Copy Whole Directories with `scp -r`
 The first image that I will show is when I copied the whole markdown-parser directory to my `ieng6` account.
