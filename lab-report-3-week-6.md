@@ -29,7 +29,7 @@ The image below will show the result of successfully adding, committing, and pus
 
 ![successPush](successPush.png)
 
-This is the link for the [successful commit](https://github.com/reisandylamdjani/markdown-parser/commit/94a7ac6ba20e167c41cd0f1f0b777c6aea73f5cc)
+This is the link for the [successful commit](https://github.com/reisandylamdjani/markdown-parser/commit/94a7ac6ba20e167c41cd0f1f0b777c6aea73f5cc).
 
 
 # Copy Whole Directories with `scp -r`
