@@ -23,6 +23,12 @@ The first image that I will show is when I copied the whole markdown-parser dire
 
 ![scpWhole](scpWhole.png)
 
+Once I have copied the whole directory, I was able to compile and run the test successfully on the ssh server.
 
+![sshOutput](sshOutput.png)
 
+The last step of this process is showing the process of running the whole command in one line.
 
+![oneLineFirst](oneLineFirst.png)
+
+![oneLineSecond](oneLineSecond.png)
