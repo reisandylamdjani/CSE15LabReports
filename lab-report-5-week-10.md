@@ -12,7 +12,7 @@ Both implementations in `my-markdown-parser` and `markdown-parse` is incorrect. 
 
 The bug in this situation is the fact that the implementation inside the `my-markdown-parser` file will return an empty string if any of the brackets and parentheses. It does not take into acccount of any weird characters such as `/` or `\` or `*`. Since the parentheses has the `""` symbol for a `string`, the expected output should be `ti*tle` since it is inside the `string` statement but it's not printing anything.
 
-![screenShot](LR5Photos/screenshot.png)
+![screenShot](LR5Photos/screenShot.png)
 
 Inside the `getLinks` method, there should be should be a helper method where if any of the brackets or parentheses are -1, it should change the index of that back to whatever and move on. Meaning, it ignores wrong inputs and still outputs the correct output.
 
@@ -29,6 +29,6 @@ Both implementations in `my-markdown-parser` and `markdown-parse` is incorrect. 
 
 The bug in this situation is the fact that the code throws a value of `-1` when the new line is between `foo` and `bar`. The code starts off reading the open parenthese as well as taking into accounts of the index and tries to find the closing parenthese, but there was a new line that was implemented in the test, therefore, it throws a value of `-1`.
 
-![screenShot](LR5Photos/screenshot.png)
+![screenShot](LR5Photos/screenShot.png)
 
 Much like the same approach for the first file, inside the `getLinks` method, there should be a helper method which refreshes the index back to non `-1` and move on with the input, ignoring all characters. In this case, one helpful code would be to indicate if there is `""` inside the parentheses. If there is those symbols, then just output anything inside the two quotation marks. 
